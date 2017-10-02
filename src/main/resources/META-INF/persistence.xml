@@ -7,9 +7,9 @@
 	<persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/jizda" />
-			<property name="javax.persistence.jdbc.user" value="jizda" />
-			<property name="javax.persistence.jdbc.password" value="jizda" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/pa165" />
+			<property name="javax.persistence.jdbc.user" value="pa165" />
+			<property name="javax.persistence.jdbc.password" value="pa165" />
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
 
 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect" />
